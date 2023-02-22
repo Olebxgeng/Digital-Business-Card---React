@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+    width: 550px;
+    background-color: #23252C;
+    /* text-align: center; */
+    font-family: 'Inter', sans-serif;
+    color: #fff
+}
+.container{
+        background-color: #1A1B21;
+        width: 317px;
+        margin: 25px auto;
+        border-radius: 10px;
+}
+
+.my-selfie{
+    width: 317px;
+    height: 317px;
+    border-radius: 10px 10px 0px 0px;
+}
+header{
+    text-align: center;
+}
+
+
+header > h1{
+    display: block;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    margin: 20px 0 5px 0;
+}
+
+header >h3{
+    margin-top: 0px;
+    font-weight: 400;
+    font-size: 12.8px;
+    line-height: 15px;
+    color: #F3BF99;
+    
+}
+
+header >h4{
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    margin-bottom: 30px
+}
+
+
+
+header > a{
+    height: 34px;
+    width: 274px;
+    border-radius: 6px;
+    padding: 8px 100px;
+    margin: 5px;
+    background-color: white; 
+    color: #374151;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 12px;
+}
+
+header > a > img{
+    margin-right: 10px;
+    width: 16px;
+}
+
+.about-me, .interests{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    margin: 30px 0px 10px 30px;
+}
+
+div > p {
+    font-family: Inter;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #161619;
+    padding: 20px 70px;
+    border-radius: 0px 0px 10px 10px;
+    margin-top: 30px;
+}
+
+footer > img{
+    Width: 25px;
+    Height: 25px;
+    cursor: pointer;
+}
